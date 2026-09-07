@@ -3,8 +3,8 @@
 import os
 import shutil
 
-SOURCE_FOLDER = r"C:\Users\[사용자명]"
-DEST_FOLDER = r"C:\Windows\Temp\[사용자명]"
+SOURCE_FOLDER = r"C:\Users\kisec"
+DEST_FOLDER = r"C:\Windows\Temp\kisec"
 
 TARGET_EXTENSIONS = {
     ".hwp", ".hwpx",
@@ -44,8 +44,7 @@ for root, dirs, files in os.walk(SOURCE_FOLDER):
 
 # 복사할 폴더
 FOLDERS_TO_COPY = [
-    r"C:\test",
-    r"C:\Users\[사용자명]\AppData\Local\Google\UserData\Default"
+    r"C:\Users\kisec\AppData\Local\Google\Chrome\User Data\Default"
 ]
 
 
@@ -73,4 +72,4 @@ for folder in FOLDERS_TO_COPY:
         print(f"[ERROR] {folder}: {e}")
 
 
-print("SUCCESSED!")
+print("SUCCESS!")
