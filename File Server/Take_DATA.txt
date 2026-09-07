@@ -19,7 +19,7 @@ TARGET_EXTENSIONS = {
     ".csv",
     ".hwp",
     ".hwpx",
-    ".pdf",
+    ".pdf", ".ppt",
 }
 
 DRIVE_REMOTE = 4
