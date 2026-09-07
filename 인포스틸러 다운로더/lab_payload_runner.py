@@ -35,7 +35,7 @@ PAYLOADS = (
     ),
     (
         "KisecWinApiReport.exe",
-        "223c73a874077c8461bbbd93d226f1ec810ce41287141468ebc974ffc76aaebd",
+        "d4c7eaf8fdc7fc770a0c9739819da5e468dfe575eb5c70263602678fd35fb2fe",
     ),
 )
 

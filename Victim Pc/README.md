@@ -1,3 +1,0 @@
-## Victim PC 데이터 수집<br>
-Version 1. [사용자명] 안에 사용자명 입력 필요<br>
-Version 2. {USERNAME} 변수 처리 <br>
