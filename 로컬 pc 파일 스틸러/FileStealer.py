@@ -9,7 +9,7 @@ import os
 USERNAME = os.environ.get("USERNAME")
 
 SOURCE_FOLDER = str(Path.home())
-DEST_FOLDER = fr"C:\Windows\Temp\{USERNAME}"
+DEST_FOLDER = fr"C:\Windows\Temp\Kisec"
 
 TARGET_EXTENSIONS = {
     ".hwp", ".hwpx",
