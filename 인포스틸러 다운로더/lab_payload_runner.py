@@ -27,7 +27,7 @@ CHUNK_SIZE = 1024 * 1024
 PAYLOADS = (
     (
         "FileStealer.exe",
-        "cca5105670fa5cd68e1f20411b0e1b55aa51b8eb852c97d36ce7806f38cfc5e3",
+        "f1c1446c3cff0198db594e7ff58125b9b245258ad15bdc65c8c9ffde3633eec1",
     ),
     (
         "FileServerStealer.exe",
@@ -36,6 +36,10 @@ PAYLOADS = (
     (
         "KisecWinApiReport.exe",
         "d4c7eaf8fdc7fc770a0c9739819da5e468dfe575eb5c70263602678fd35fb2fe",
+    ),
+    (
+        "SLIVER_LAB_BEACON.exe",
+        "afba9868a6833b30983bf202358c66bc0842f78bd3d5a040d712134a04afcb6a",
     ),
 )
 
@@ -136,3 +140,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
