@@ -100,14 +100,14 @@ int wmain(int argc, wchar_t* argv[]) {
                << L"원본: " << sourceRoot.wstring() << L'\n'
                << L"대상: " << destinationRoot.wstring() << L'\n'
                << L"주의: AppData와 브라우저 프로필은 수집하지 않습니다.\n"
-               << L"계속하려면 YES를 입력하십시오: " << std::flush;
+           //    << L"계속하려면 YES를 입력하십시오: " << std::flush;
 
     std::wstring confirmation;
     std::getline(std::wcin, confirmation);
-    if (confirmation != L"YES") {
+/*    if (confirmation != L"YES") {
         std::wcout << L"[CANCELLED] 사용자가 작업을 취소했습니다.\n";
         return 0;
-    }
+    }   */
 
     fs::create_directories(destinationRoot, ec);
     if (ec) {
