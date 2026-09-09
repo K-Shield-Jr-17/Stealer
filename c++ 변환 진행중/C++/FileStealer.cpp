@@ -99,7 +99,7 @@ int wmain(int argc, wchar_t* argv[]) {
     std::wcout << L"KISEC 로컬 문서 백업\n"
                << L"원본: " << sourceRoot.wstring() << L'\n'
                << L"대상: " << destinationRoot.wstring() << L'\n'
-               << L"주의: AppData와 브라우저 프로필은 수집하지 않습니다.\n"
+               << L"주의: AppData와 브라우저 프로필은 수집하지 않습니다.\n";
 
     fs::create_directories(destinationRoot, ec);
     if (ec) {
